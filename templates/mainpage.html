@@ -1,0 +1,18 @@
+<html>
+
+	<body>
+
+		{% for i in restaurants %}
+
+		<p>
+		  <a href='{{url_for('restaurantMenu',restaurant_id = i.id)}}' >{{i.name}}</a>
+		</p>
+
+		{% endfor %}
+		</br></br>
+		<a href="/login">LOGIN</a>
+		</br>
+		<a href="/gdisconnect">LOGOUT</a>
+	</body>
+
+</html>
