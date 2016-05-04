@@ -1,3 +1,3 @@
 # restaurant-menu-app
-from udacity course
-vagrant and virtual box are need to launch this
+from udacity courses: Full Stack Foundations and Authentication & Authorization: OAuth__
+vagrant and virtual box are needed to launch this
